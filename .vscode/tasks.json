@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Clean and Build SilenceTrimmer",
+			"type": "shell",
+			"command": "xcodebuild",
+			"args": [
+				"clean",
+				"build",
+				"-project",
+				"SilenceTrimmer.xcodeproj",
+				"-scheme",
+				"SilenceTrimmer",
+				"-configuration",
+				"Debug"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			]
+		}
+	]
+}

@@ -4,3 +4,10 @@ DerivedData/
 *.xcuserstate
 *.xcworkspace
 *.xcodeproj/project.xcworkspace/
+
+## VS Code
+# settings.json contains personal preferences and should stay ignored
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
