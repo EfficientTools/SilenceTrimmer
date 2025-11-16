@@ -9,7 +9,7 @@
 
 ## Prerequisites
 
-1. Install Python and Whisper (small model):
+1. Install Python and local Whisper (small model):
 
 ```bash
 brew install ffmpeg
