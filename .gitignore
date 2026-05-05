@@ -5,6 +5,9 @@ DerivedData/
 *.xcworkspace
 *.xcodeproj/project.xcworkspace/
 
+# Local signing config — copy Config/Local.xcconfig.template to Config/Local.xcconfig and fill in your team ID
+Config/Local.xcconfig
+
 ## VS Code
 # settings.json contains personal preferences and should stay ignored
 .vscode/*
