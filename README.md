@@ -19,16 +19,11 @@ pip install git+https://github.com/openai/whisper.git
 
 Make sure your Terminal’s Python environment is accessible by your app or adjust the script to use absolute paths if needed.
 
-2. Set up your local signing config:
+2. Copy the signing config template and fill in your [Apple Developer Team ID](https://developer.apple.com/account):
 
 ```bash
 cp Config/Local.xcconfig.template Config/Local.xcconfig
-```
-
-Then open `Config/Local.xcconfig` and fill in your Apple Developer Team ID (found under [Membership Details](https://developer.apple.com/account)):
-
-```
-DEVELOPMENT_TEAM = XXXXXXXXXX
+# Edit Config/Local.xcconfig and set DEVELOPMENT_TEAM = <your-team-id>
 ```
 
 3. Open the Xcode project `SilenceTrimmer.xcodeproj` or `.xcworkspace`
